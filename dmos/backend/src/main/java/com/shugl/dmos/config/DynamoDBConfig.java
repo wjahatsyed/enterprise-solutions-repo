@@ -15,9 +15,9 @@ public class DynamoDBConfig {
     public AmazonDynamoDB amazonDynamoDB() {
         return AmazonDynamoDBClientBuilder.standard()
                 .withEndpointConfiguration(new AwsClientBuilder.EndpointConfiguration(
-                        "http://localhost:8000", "us-west-2"))
+                        "http://localhost:8000", "us-east-1"))
                 .withCredentials(new AWSStaticCredentialsProvider(
-                        new BasicAWSCredentials("dummy-access-key", "dummy-secret-key")))
+                        new BasicAWSCredentials("dummyAccessKey", "dummySecretKey")))
                 .build();
     }
 }

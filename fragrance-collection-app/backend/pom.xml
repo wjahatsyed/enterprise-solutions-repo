@@ -11,7 +11,7 @@
 	<groupId>com.shugl</groupId>
 	<artifactId>frangrances-collection</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>frangrances-collection</name>
+	<name>fragrances-collection</name>
 	<description>Perfumes Collection App</description>
 	<url/>
 	<licenses>
@@ -61,6 +61,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>

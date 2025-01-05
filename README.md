@@ -4,3 +4,6 @@ This repository hosts various scalable, modular, and production-grade solutions 
 ### 1. Digital Marketing Optimization System (DMOS)
 #### Objective:
 Build a scalable digital marketing optimization system to capture marketing signals, provide analytics, and enable A/B testing for customer engagement improvement.
+
+### 2. Perfumes Collection App (PCA)
+#### Objective:

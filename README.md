@@ -6,4 +6,6 @@ This repository hosts various scalable, modular, and production-grade solutions 
 Build a scalable digital marketing optimization system to capture marketing signals, provide analytics, and enable A/B testing for customer engagement improvement.
 
 ### 2. Perfumes Collection App (PCA)
-#### Objective:
+Deployec at: https://impartial-enthusiasm-production.up.railway.app/
+#### Objective: 
+Build an application to demonstrate fragrance collection.

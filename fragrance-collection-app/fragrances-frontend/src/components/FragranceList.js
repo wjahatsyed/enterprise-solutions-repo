@@ -6,7 +6,7 @@ function FragranceList() {
   const [fragrances, setFragrances] = useState([]);
 
   useEffect(() => {
-    axios.get('http://enterprise-solutions-repo-production.up.railway.app/api/v1/fragrances')
+    axios.get('https://enterprise-solutions-repo-production.up.railway.app/api/v1/fragrances')
       .then(response => setFragrances(response.data))
       .catch(error => console.error(error));
   }, []);

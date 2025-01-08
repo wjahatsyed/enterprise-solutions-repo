@@ -14,7 +14,7 @@ const AddPerfume = () => {
         const newPerfume = { name, brand, type, description, price: parseFloat(price) };
 
         try {
-            await axios.post("http://localhost:8088/api/v1/fragrances", newPerfume);
+            await axios.post("http://enterprise-solutions-repo-production.up.railway.app/api/v1/fragrances", newPerfume);
             alert("Perfume added successfully!");
             setName("");
             setBrand("");

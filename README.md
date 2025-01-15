@@ -9,3 +9,15 @@ Build a scalable digital marketing optimization system to capture marketing sign
 Deployec at: https://impartial-enthusiasm-production.up.railway.app/
 #### Objective: 
 Build an application to demonstrate fragrance collection.
+
+### 3. Airline Reservation System
+#### Objective: 
+A Complete Airline Reservation System.
+
+### 4. Unified GraphQL Data Platform (UGDP)
+#### Objective: 
+Build a modular data access layer: Develop a GraphQL API that connects various backend services while ensuring high performance, reliability, and modularity.
+Schema management: Create a global schema that enables efficient data access and intuitive modeling for developers.
+Tenant experience improvements: Design tooling and observability features to allow tenant teams to optimize performance and cost autonomously.
+Enable observability and monitoring: Include logging, metrics, and tracing to support debugging and performance tuning.
+Scalability and extensibility: Design an architecture that allows for easy upgrades and extensions.

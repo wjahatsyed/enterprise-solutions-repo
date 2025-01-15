@@ -1,0 +1,17 @@
+type Query {
+    getUser(id: ID!): User
+    listProperties(city: String!): [Property]
+}
+
+type User {
+    id: ID!
+    name: String!
+    email: String!
+}
+
+type Property {
+    id: ID!
+    name: String!
+    address: String!
+    price: Float!
+}

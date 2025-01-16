@@ -1,13 +1,17 @@
-version: "3.8"
 services:
   mysql:
-    image: mysql:8
+    image: mysql:8.0
+    container_name: backend-mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: ugdp
     ports:
-      - "3306:3306"
+      - "3307:3306" # Map 3307 on the host to 3306 inside the container
+    volumes:
+      - mysql-data:/var/lib/mysql
   redis:
     image: redis:7
     ports:
-      - "6379:6379"
+      - "6380:6380"
+volumes:
+  mysql-data:

@@ -15,3 +15,7 @@ type Property {
     address: String!
     price: Float!
 }
+
+type Query {
+    validateSchema: String
+}

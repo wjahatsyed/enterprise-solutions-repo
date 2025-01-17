@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ugdp-backend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ugdp
+  template:
+    metadata:
+      labels:
+        app: ugdp
+    spec:
+      containers:
+        - name: ugdp
+          image: ugdp-backend:latest
+          ports:
+            - containerPort: 8080

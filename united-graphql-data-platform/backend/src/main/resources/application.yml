@@ -40,6 +40,9 @@ spec:
           image: ugdp:latest
           ports:
             - containerPort: 8080
+logging:
+  pattern:
+    console: '{"timestamp":"%d{yyyy-MM-dd HH:mm:ss}","level":"%p","message":"%m"}'
 
 
 

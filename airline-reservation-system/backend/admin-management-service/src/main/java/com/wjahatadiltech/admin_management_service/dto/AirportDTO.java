@@ -1,26 +1,20 @@
-package com.wjahatadiltech.flight_search_service.entity;
+package com.wjahatadiltech.admin_management_service.dto;
 
-import jakarta.persistence.*;
-
-@Entity
-@Table(name = "airports")
-public class Airport {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class AirportDTO {
     private Long id;
-
-    @Column(name = "code", unique = true, nullable = false)
     private String code;
-
-    @Column(name = "name", nullable = false)
     private String name;
-
-    @Column(name = "city", nullable = false)
     private String city;
-
-    @Column(name = "country", nullable = false)
     private String country;
+
+    // Getters and Setters
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public String getCode() {
         return code;
@@ -53,7 +47,5 @@ public class Airport {
     public void setCountry(String country) {
         this.country = country;
     }
-
-    // Getters and Setters
 }
 
